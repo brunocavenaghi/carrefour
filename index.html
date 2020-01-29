@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Incentivo Carrefour</title>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <header>
+  </header>
+  <!-- SLIDER -->
+  <section class="slider-home">
+    <div class="slider">
+      <div class="slide">
+        <img src="images/banner-topo.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="images/banner-topo-2.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- END SLIDER -->
+
+  <!-- FEED + SIDEBARD -->
+
+  <section class="main">
+    <div class="container">
+      <div class="row">
+        <!-- FEED -->
+        <div class="col-md-8 feed-holder">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>FEED DA CAMPANHA</h2>
+            </div>
+          </div>
+          <!-- INSERT POST -->
+          <div class="row">
+            <div class="col-md-12 post-holder"></div>
+          </div>
+
+          <div class="row align-items-center pb-3">
+            <div class="col-2 col-md-1">
+              <div class="avatar mini" style="background-image: url('images/profile-pic.png');"> </div>
+            </div>
+            <div class="col-10 col-md-11">
+              <div class="form-group m-0">
+                <input class="form-control post-text" type="text" placeholder="O que você gotaria de postar...">
+                <button class="btn btn-arrow insert-post"></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-end">
+            <div class="col-4 col-md-2 text-right">
+              <button class="btn btn-foto">
+                Foto
+              </button>
+              <input type="file" class="picture" accept=".jpg, .png, .gif">
+            </div>
+            <div class="col-5 col-md-3 text-right">
+              <button class="btn btn-video">Vídeo</button>
+              <input type="file" class="video" accept=".mp4">
+            </div>
+          </div>
+
+          <hr>
+
+          <!-- END INSERT POST -->
+
+          <!-- POST -->
+          <div class="posts-holder">
+            <div class="post">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="card-default">
+                    <!-- POST HEADER -->
+                    <div class="post-header">
+                      <div class="row">
+                        <div class="col-4 col-md-2">
+                          <div class="avatar medium" style="background-image: url('images/profile-pic.png');"> </div>
+                        </div>
+                        <div class="col-8 col-md-7 info-holder">
+                          <p class="user-name">Marina Santos</p>
+                          <p class="post-date">01 - 03 - 2020</p>
+                        </div>
+                        <div class="col-md-3 like-holder">
+                          <span class="like-count">143</span>
+                          <button class="like-button"></button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END POST HEADER -->
+                    <!-- POST CONTENT -->
+                    <div class="post-content">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <p class="post-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
+                            viverra
+                            maecenas accumsan lacus vel facilisis.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END POST CONTENT -->
+
+                    <!-- COMMENTS -->
+                    <div class="comments">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <p class="comment-title">Comnetários</p>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group m-0">
+                            <input class="form-control insert-comment" type="text" placeholder="Deixe um comentário...">
+                            <button class="btn btn-arrow post-comment"></button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="comments-holder">
+                        <div class="row comment">
+                          <div class="col-2 col-md-1">
+                            <div class="avatar mini" style="background-image: url('images/profile-pic.png');"> </div>
+                          </div>
+                          <div class="col-10 col-md-3">
+                            <p class="user-name">Marina Santos</p>
+                          </div>
+                          <div class="col-md-8">
+                            <p class="comment-text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            </p>
+                          </div>
+                        </div>
+                        <div class="row comment">
+                          <div class="col-2 col-md-1">
+                            <div class="avatar mini" style="background-image: url('images/profile-pic.png');"> </div>
+                          </div>
+                          <div class="col-10 col-md-3">
+                            <p class="user-name">Marina Santos</p>
+                          </div>
+                          <div class="col-md-8">
+                            <p class="comment-text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END COMMENTS -->
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="post">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="card-default">
+                    <!-- POST HEADER -->
+                    <div class="media-holder">
+                      <img src="images/img-post.jpg" alt="">
+                    </div>
+                    <div class="post-header">
+                      <div class="row">
+                        <div class="col-4 col-md-2">
+                          <div class="avatar medium" style="background-image: url('images/profile-pic.png');"> </div>
+                        </div>
+                        <div class="col-8 col-md-7 info-holder">
+                          <p class="user-name">Marina Santos</p>
+                          <p class="post-date">01 - 03 - 2020</p>
+                        </div>
+                        <div class="col-md-3 like-holder">
+                          <span class="like-count">143</span>
+                          <button class="like-button"></button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END POST HEADER -->
+                    <!-- POST CONTENT -->
+                    <div class="post-content">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <p class="post-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
+                            viverra
+                            maecenas accumsan lacus vel facilisis.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END POST CONTENT -->
+
+                    <!-- COMMENTS -->
+                    <div class="comments">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <p class="comment-title">Comnetários</p>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group m-0">
+                            <input class="form-control insert-comment" type="text" placeholder="Deixe um comentário...">
+                            <button class="btn btn-arrow post-comment"></button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="comments-holder"></div>
+                    </div>
+                    <!-- END COMMENTS -->
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- POST END -->
+          </div>
+        </div>
+        <!-- END FEED -->
+
+        <!-- SIDEBAR -->
+
+        <div class="col-md-4 sidebar">
+
+          <!-- PROFILE CARD -->
+          <div class="profile-card card-default">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="avatar" style="background-image: url('images/profile-pic.png');"> </div>
+              </div>
+            </div>
+            <div class="row profile-info">
+              <div class="col-12">
+                <p class="user-name">
+                  Marina Santos
+                </p>
+              </div>
+            </div>
+            <div class="row profile-info">
+              <div class="col-4 text-right">
+                <img src="images/icon-wallet.png" alt="">
+              </div>
+              <div class="col-8">
+                <span class="points-value">1000 pontos</span>
+              </div>
+            </div>
+            <div class="row profile-info">
+              <div class="col-4 text-right">
+                <img src="images/icon-contract.png" alt="">
+              </div>
+              <div class="col-8">Regulamento Aceito <br>
+                <span class="contract-date">em 00/00/2020</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- END PROFILE CARD -->
+
+          <!-- WISHLIST CARD -->
+          <div class="wishlist-card card-default">
+            <div class="row">
+              <div class="col-12">
+                <h4>LISTA DE <br>
+                  <span>DESEJOS</span>
+                </h4>
+              </div>
+            </div>
+            <div class="wishes">
+              <div class="wish">
+                <div class="row">
+                  <div class="col-12 product-image">
+                    <img src="images/produto-3.png" alt="">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <p class="product-name">Liquidificador Mondial Turbo</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <p class="product-price">99<span class="cents">.99 pontos</span></p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <a href="detalhe-produto.html" class="btn btn-primary">COMPRAR</a>
+                  </div>
+                </div>
+              </div>
+              <div class="wish">
+                <div class="row">
+                  <div class="col-12 product-image">
+                    <img src="images/produto-2.png" alt="">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <p class="product-name">Smartphone Motorola One Action</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <p class="product-price">99<span class="cents">.99 pontos</span></p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <a href="detalhe-produto.html" class="btn btn-primary">COMPRAR</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- END WISHLIST CARD -->
+
+          <!-- EXTRACT CARD -->
+
+          <div class="extract-card card-default">
+            <div class="row">
+              <div class="col-12">
+                <h4>EXTRATO</h4>
+              </div>
+            </div>
+            <div class="row extract-row">
+              <div class="col-12">
+                <span class="extract-title">Resgate de Prêmios</span>
+              </div>
+              <div class="col-7">
+                <img src="images/icon-calendar.png" alt="">
+                <span class="extract-date">01 - 03 - 2020</span>
+              </div>
+              <div class="col-5 text-right">
+                <span class="extract-value">-252 pontos</span>
+              </div>
+            </div>
+            <div class="row extract-row">
+              <div class="col-12">
+                <span class="extract-title">Resgate de Prêmios</span>
+              </div>
+              <div class="col-7">
+                <img src="images/icon-calendar.png" alt="">
+                <span class="extract-date">01 - 03 - 2020</span>
+              </div>
+              <div class="col-5 text-right">
+                <span class="extract-value">-252 pontos</span>
+              </div>
+            </div>
+            <div class="row extract-row">
+              <div class="col-12">
+                <span class="extract-title">Resgate de Prêmios</span>
+              </div>
+              <div class="col-7">
+                <img src="images/icon-calendar.png" alt="">
+                <span class="extract-date">01 - 03 - 2020</span>
+              </div>
+              <div class="col-5 text-right">
+                <span class="extract-value">-252 pontos</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- END EXTRACT CARD -->
+
+        </div>
+
+        <!-- END SIDEBAR -->
+
+      </div>
+    </div>
+  </section>
+  <!-- END FEDD + SIDEBAR -->
+  <!-- COUPON SECTION -->
+  <section class="coupon">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card-default coupon-holder">
+            <div class="row align-items-center">
+              <div class="col-md-4 text-center">
+                <h4>promoção <br> <span>DO DIA</span></h4>
+              </div>
+              <div class="col-md-3 img-holder">
+                <img src="images/produto-1.png" alt="">
+              </div>
+              <div class="col-md-5">
+                <p class="product-title">Smartphone Motorola One Action</p>
+                <p class="coupon-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna</p>
+                <div class="form-group">
+                  <input class="form-control insert-comment" type="text"
+                    placeholder="Digite o código do cupom para ativar...">
+                  <button class="btn btn-arrow"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- END COUPON SECTION -->
+
+  <!-- MOST POPULAR + QUIZ SECTION -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <section class="popular">
+          <div class="card-default">
+            <div class="row">
+              <div class="col-12">
+                <h4><span>OS MAIS </span><br>RESGATADOS</h4>
+              </div>
+            </div>
+            <div class="populars">
+              <div class="popular-item">
+                <div class="row">
+                  <div class="col-md-6 text-center">
+                    <img src="images/produto-3.png" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <p class="product-title">Liquidificador Mondial Turbo</p>
+                    <p class="product-price">99<span class="cents">.99 pontos</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="popular-item">
+                <div class="row">
+                  <div class="col-md-6 text-center">
+                    <img src="images/produto-3.png" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <p class="product-title">Liquidificador Mondial Turbo</p>
+                    <p class="product-price">99<span class="cents">.99 pontos</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="col-md-6">
+        <section class="quiz">
+          <div class="card-default">
+            <div class="row">
+              <div class="col-12">
+                <h4>QUIZ</h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <p class="question">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                  <label class="form-check-label" for="exampleRadios1">
+                    Sed do eiusmod tempor incididunt ut labore
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                  <label class="form-check-label" for="exampleRadios1">
+                    Sed do eiusmod tempor incididunt ut labore
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                  <label class="form-check-label" for="exampleRadios1">
+                    Sed do eiusmod tempor incididunt ut labore
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                  <label class="form-check-label" for="exampleRadios1">
+                    Sed do eiusmod tempor incididunt ut labore
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 text-center">
+                <button class="btn btn-primary">RESPONDER</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <!-- END MOST POPULAR + QUIZ SECTION-->
+
+  <!-- FOOTER -->
+
+  <footer>
+  </footer>
+
+  <!-- END FOOTER -->
+
+  <script src="/scripts/script.js"></script>
+  <script src="/scripts/home.js"></script>
+
+</body>
+
+</html>
